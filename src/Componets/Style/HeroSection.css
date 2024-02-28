@@ -1,0 +1,33 @@
+
+
+.content {
+  display: flex;
+ 
+}
+
+.left {
+  flex: 1;
+ padding-left: 25px;
+}
+
+.right {
+  flex: 2;
+  padding: 20px; /* Add padding as needed */
+}
+.img2{
+    padding-left: 25px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .left,
+  .right,
+  .img2 {
+    padding: 20px; 
+  }
+}

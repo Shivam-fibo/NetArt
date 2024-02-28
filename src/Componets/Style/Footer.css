@@ -1,0 +1,66 @@
+.horizontal-line {
+    width: 100%; /* Full width of the container */
+    height: 2px; /* Adjust the height as needed */
+    background-color: red; /* Line color */
+    margin: 10px 0; /* Adjust the margin as needed */
+  }
+
+  .para{
+   padding-left: 425px;
+  }
+
+
+  .red-lines::before {
+    content: '| ';
+    color: red;
+  }
+  
+  .red-lines::after {
+    content: '| ';
+    color: red;
+  }
+  .footer{
+    background-color: red;
+    margin-top: 25px;
+    display: flex;
+    gap: 100px;
+    height: 150px;
+    color: aliceblue;
+   
+  }
+  .toll {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  .facebook {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  .globe {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .para {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .footer {
+      gap: 10px;
+    }
+  
+    .toll,
+    .facebook,
+    .globe {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
