@@ -27,7 +27,7 @@ const Footer = () => {
 
                 <div className='footer'>
                   <div className="toll">
-                <IoIosCall /> Toll Free 1800 200 1234
+                <IoIosCall /> Toll Free 18002001234
 
                   </div>
                   <div className="facebook">
